@@ -9,8 +9,8 @@ package org.git.intro;
 				String rev = "";
 				
 				for (int i = s.length()-1;i>=0; i--) {
-					char c = s.charAt(i);
-					rev = rev + c;
+					char ch = s.charAt(i);
+					rev = rev + ch;
 					
 				
 			}
