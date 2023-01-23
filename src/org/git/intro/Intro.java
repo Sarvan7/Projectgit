@@ -9,8 +9,13 @@ package org.git.intro;
 				String rev = "";
 				
 				for (int i = s.length()-1;i>=0; i--) {
+<<<<<<< HEAD
+					char chs = s.charAt(i);
+					rev = rev + chs;
+=======
 					char ch = s.charAt(i);
 					rev = rev + ch;
+>>>>>>> 5495b527119352719bd523d577c24a094e8ce0b5
 					
 				
 			}
